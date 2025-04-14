@@ -1,0 +1,103 @@
+/* Meal Planner Page - styles-meal-planner.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5fbf6;
+    color: #333;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #1B5E20;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #1B5E20;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .footer-left {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .footer-right {
+    text-align: right;
+    flex: 1;
+  }
+  
+  .footer-content a {
+    color: #c8e6c9;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin: 1rem 0;
+  }
+  
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #a5d6a7;
+  }
+  
